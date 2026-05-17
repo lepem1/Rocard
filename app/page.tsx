@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#07111f] text-white overflow-hidden relative">
-
+      
       {/* Background Glow */}
       <div className="absolute top-[-200px] left-[-100px] w-[500px] h-[500px] bg-cyan-400/10 blur-[120px] rounded-full"></div>
 
@@ -9,13 +9,13 @@ export default function Home() {
 
       {/* Navbar */}
       <nav className="flex justify-between items-center p-6 relative z-10">
-
+        
         <h1 className="text-4xl font-bold text-cyan-400">
           Rocard
         </h1>
 
         <div className="flex gap-4">
-
+          
           <a
             href="/login"
             className="px-6 py-3 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition"
@@ -38,13 +38,15 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center text-center mt-28 px-6 relative z-10">
 
         <h2 className="text-6xl md:text-7xl font-bold max-w-5xl leading-tight">
-          Modern Digital
-          <span className="text-cyan-400"> Earning Platform</span>
+          Modern Digital{" "}
+          <span className="text-cyan-400">
+            Earning Platform
+          </span>
         </h2>
 
         <p className="text-gray-300 mt-8 max-w-2xl text-xl">
           Complete tasks, participate in activities,
-          and earn rewards in a modern secure platform.
+          and use a secure modern platform experience.
         </p>
 
         <div className="flex gap-5 mt-10 flex-wrap justify-center">
@@ -81,7 +83,7 @@ export default function Home() {
           </h3>
 
           <p className="text-gray-400 mt-4">
-            Modern account protection and secure authentication.
+            Advanced account protection and secure authentication.
           </p>
 
         </div>
@@ -97,7 +99,7 @@ export default function Home() {
           </h3>
 
           <p className="text-gray-400 mt-4">
-            Complete tasks and activities directly from your dashboard.
+            Complete tasks and activities from your dashboard.
           </p>
 
         </div>
@@ -130,9 +132,8 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-300 mt-6 text-lg leading-8">
-            Rocard is built to provide a modern earning experience
-            with clean design, secure systems, and a simple workflow
-            for completing tasks and activities online.
+            Rocard provides a modern earning experience with
+            clean design, secure systems, and an easy workflow.
           </p>
 
         </div>
